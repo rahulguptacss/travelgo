@@ -2,25 +2,124 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #22150c;
+  --color-primary: #e86016;
+  --color-primary-light: #f5772a;
+  --color-primary-dark: #cc4d09;
+  --color-espresso: #26160d;
+  --color-sand: #fbf8f5;
+  --color-gold: #c88636;
+  --color-muted: #6b635b;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--color-primary);
+  --color-primary-light: var(--color-primary-light);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-espresso: var(--color-espresso);
+  --color-sand: var(--color-sand);
+  --color-gold: var(--color-gold);
+  --color-muted: var(--color-muted);
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: var(--font-outfit), 'Segoe UI', sans-serif;
+  --font-serif: var(--font-serif), 'Playfair Display', Georgia, serif;
+  --font-script: var(--font-script), 'Caveat', cursive;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  overflow-x: clip;
 }
+
+
+a,
+button,
+[type="button"],
+[type="submit"] {
+  cursor: pointer;
+}
+
+/* Custom font utility classes */
+.font-script {
+  font-family: var(--font-script), 'Caveat', cursive;
+}
+
+.font-heading {
+  font-family: var(--font-heading), 'Outfit', sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-serif), 'Playfair Display', serif;
+}
+
+/* Hero Typography: Exact Match to Screenshot */
+.hero-title-explore {
+  font-family: var(--font-heading), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(180deg, #78481e 0%, #ad763e 42%, #d29858 70%, #7c4c21 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1.5px #5c3513;
+  filter: drop-shadow(0 3px 6px rgba(50, 25, 5, 0.35));
+}
+
+.hero-title-safari {
+  font-family: var(--font-heading), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #ffffff;
+  -webkit-text-stroke: 2.5px #73451a;
+  text-shadow: 0 4px 10px rgba(60, 25, 5, 0.45);
+}
+
+@media (min-width: 768px) {
+  .hero-title-explore {
+    -webkit-text-stroke: 2px #5c3513;
+  }
+  .hero-title-safari {
+    -webkit-text-stroke: 3.5px #73451a;
+  }
+}
+
+/* Warm Orange Pill Button */
+.btn-orange {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #f5701d 0%, #e8590c 100%);
+  color: #ffffff;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: 0 8px 20px -6px rgba(232, 96, 22, 0.5);
+}
+
+.btn-orange:hover {
+  background: linear-gradient(135deg, #e35a09 0%, #d44900 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -6px rgba(232, 96, 22, 0.65);
+}
+
+.btn-orange:active {
+  transform: translateY(0);
+}
+
+/* Card hover animation */
+.package-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.package-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 36px -10px rgba(40, 20, 10, 0.15);
+}
+
+

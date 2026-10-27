@@ -1,0 +1,2064 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "logo_text": "TravelGo",
+      "logo_subtext": "DUBAI SAFARI & TOURS",
+      "links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Tour Packages",
+          "href": "/packages"
+        },
+        {
+          "name": "Services",
+          "href": "/services"
+        },
+        {
+          "name": "Gallery",
+          "href": "/gallery"
+        },
+        {
+          "name": "Faq",
+          "href": "/faq"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "button_text": "Enquiry Now",
+      "button_link": "/enquiry-now",
+      "menu_aria_label": "Open navigation menu",
+      "close_aria_label": "Close navigation menu"
+    },
+    "Footer": {
+      "background_image": "/img/footer.webp",
+      "logo": "/logo/white-logo.webp",
+      "logo_text": "TravelGo",
+      "description": "TravelGo is your trusted travel partner for unforgettable journeys. We offer customized tour packages, desert safaris, city tours, and unique travel experiences across UAE and beyond.",
+      "socials": [
+        {
+          "name": "Facebook",
+          "href": "https://facebook.com",
+          "icon": "facebook",
+          "aria_label": "Facebook profile"
+        },
+        {
+          "name": "Instagram",
+          "href": "https://instagram.com",
+          "icon": "instagram",
+          "aria_label": "Instagram profile"
+        },
+        {
+          "name": "YouTube",
+          "href": "https://youtube.com",
+          "icon": "youtube",
+          "aria_label": "YouTube channel"
+        },
+        {
+          "name": "LinkedIn",
+          "href": "https://linkedin.com",
+          "icon": "linkedin",
+          "aria_label": "LinkedIn profile"
+        },
+        {
+          "name": "WhatsApp",
+          "href": "https://wa.me/100000000000",
+          "icon": "whatsapp",
+          "aria_label": "WhatsApp chat"
+        }
+      ],
+      "pages_title": "Quick Links",
+      "pages_links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Tour Packages",
+          "href": "/packages"
+        },
+        {
+          "name": "Services",
+          "href": "/services"
+        },
+        {
+          "name": "Gallery",
+          "href": "/gallery"
+        },
+        {
+          "name": "Faq",
+          "href": "/faq"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "services_title": "Tour Packages",
+      "services_links": [
+        {
+          "name": "Morning Desert Safari",
+          "href": "/packages/morning-desert-safari"
+        },
+        {
+          "name": "Desert Safari With PVT Land Cruiser",
+          "href": "/packages/desert-safari-pvt-land-cruiser"
+        },
+        {
+          "name": "Sky 44 ft Yacht Rental",
+          "href": "/packages/sky-44-ft-yacht-rental"
+        },
+        {
+          "name": "Desert Safari By Bus Pickup & Drop",
+          "href": "/packages/desert-safari-bus-pickup-drop"
+        },
+        {
+          "name": "Camel Ride In Dubai",
+          "href": "/packages/camel-ride-in-dubai"
+        },
+        {
+          "name": "Dubai Desert Safari",
+          "href": "/packages/dubai-desert-safari"
+        },
+        {
+          "name": "VIP Desert Safari Dubai",
+          "href": "/packages/vip-desert-safari-dubai"
+        }
+      ],
+      "contact_title": "Contact Us",
+      "contact_items": [
+        {
+          "icon": "phone",
+          "label": "Phone Number",
+          "text": "+100000000000",
+          "href": "tel:+100000000000"
+        },
+        {
+          "icon": "mail",
+          "label": "Email Address",
+          "text": "info@xyz.com",
+          "href": "mailto:info@xyz.com"
+        },
+        {
+          "icon": "map",
+          "label": "Office Address",
+          "text": "123 Education Lane,\nNew York, NY 10001",
+          "href": "https://maps.google.com/?q=123+Education+Lane,+New+York,+NY+10001"
+        },
+        {
+          "icon": "clock",
+          "label": "Working Hours",
+          "text": "Mon - Sat: 9:00 AM - 7:00 PM\nSunday: Closed",
+          "href": ""
+        }
+      ],
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow"
+    },
+    "BackToTop": {
+      "aria_label": "Back to top of page"
+    }
+  },
+  "categories": {
+    "Travel": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "TravelGo | Dubai Desert Safari & Luxury Tours",
+              "pageName": "Home",
+              "metadata": {
+                "title": "TravelGo | Dubai Desert Safari & Luxury Tours",
+                "description": "Book unforgettable Dubai Desert Safari packages, private Land Cruiser tours, yacht rentals, camel rides, and VIP camp experiences with TravelGo."
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "PackagesSection",
+                  "component": "Packages"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                }
+              ]
+            },
+            "about": {
+              "title": "About Us | TravelGo Dubai",
+              "pageName": "About Us",
+              "metadata": {
+                "title": "About Us | TravelGo Dubai",
+                "description": "Learn about TravelGo, your trusted partner for memorable desert safari tours, VIP excursions and premium travel experiences in the UAE."
+              },
+              "watermark": "About Us",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "BannerSection",
+                  "component": "Banner"
+                },
+                {
+                  "key": "WhyChooseUsSection",
+                  "component": "WhyChooseUs"
+                }
+              ]
+            },
+            "packages": {
+              "title": "Tour Packages | TravelGo Dubai",
+              "pageName": "Tour Packages",
+              "metadata": {
+                "title": "Tour Packages | Dubai Desert Safari & Excursions",
+                "description": "Explore our complete range of Dubai desert safari packages, luxury yacht cruises, dune bashing, and VIP Bedouin camps."
+              },
+              "watermark": "Packages",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "PackagesSection",
+                  "component": "Packages"
+                }
+              ]
+            },
+            "gallery": {
+              "title": "Gallery | TravelGo Dubai",
+              "pageName": "Gallery",
+              "metadata": {
+                "title": "Desert Safari Gallery | TravelGo",
+                "description": "View stunning photos of Dubai desert dunes, camel caravans, luxury yachts, and campfires."
+              },
+              "watermark": "Gallery",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "GallerySection",
+                  "component": "Gallery"
+                }
+              ]
+            },
+            "faq": {
+              "title": "FAQ | TravelGo Dubai",
+              "pageName": "Frequently Asked Questions",
+              "metadata": {
+                "title": "Desert Safari FAQ | TravelGo",
+                "description": "Get answers to common questions about Dubai desert safaris, pickup timings, clothing, and package inclusions."
+              },
+              "watermark": "FAQ",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "FaqSection",
+                  "component": "Faq"
+                }
+              ]
+            },
+            "contact": {
+              "title": "Contact Us | TravelGo Dubai",
+              "pageName": "Contact Us",
+              "metadata": {
+                "title": "Contact TravelGo | Book Dubai Desert Safari",
+                "description": "Get in touch with TravelGo for immediate bookings, custom tour quotes, and customer support."
+              },
+              "watermark": "Contact",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                }
+              ]
+            },
+            "services": {
+              "title": "Our Services | TravelGo Dubai",
+              "pageName": "Our Services",
+              "metadata": {
+                "title": "Our Services | TravelGo Dubai Desert Safari & Tours",
+                "description": "Explore our comprehensive travel services across Dubai and UAE including desert safaris, city tours, luxury yacht rentals, theme parks, and airport transfers."
+              },
+              "watermark": "Services",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                }
+              ]
+            },
+            "package_details": {
+              "title": "Package Details | TravelGo Dubai",
+              "pageName": "Package Details",
+              "metadata": {
+                "title": "Morning Desert Safari Tour Details | TravelGo Dubai",
+                "description": "Book Morning Desert Safari in Dubai. 4 hours of thrilling dune bashing, camel riding, sandboarding and refreshing drinks in the Arabian desert."
+              },
+              "watermark": "Package",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "PackageDetailsSection",
+                  "component": "PackageDetails"
+                }
+              ],
+              "enquiry_form": {
+                "title_prefix": "Enquire",
+                "title_highlight": "Now",
+                "subtitle": "Fill out the form and our team will get back to you with the best package details.",
+                "name_placeholder": "Full Name *",
+                "email_placeholder": "Email Address *",
+                "phone_placeholder": "Phone Number *",
+                "date_placeholder": "Travel Date *",
+                "people_placeholder": "Number of People *",
+                "people_options": [
+                  {
+                    "value": "1",
+                    "label": "1 Person"
+                  },
+                  {
+                    "value": "2",
+                    "label": "2 People"
+                  },
+                  {
+                    "value": "3",
+                    "label": "3 People"
+                  },
+                  {
+                    "value": "4",
+                    "label": "4 People"
+                  },
+                  {
+                    "value": "5-8",
+                    "label": "5 - 8 People"
+                  },
+                  {
+                    "value": "9+",
+                    "label": "9+ People (Group)"
+                  }
+                ],
+                "message_placeholder": "Message / Special Requirements",
+                "button_text": "Send Enquiry",
+                "success_title": "Enquiry Sent Successfully!",
+                "success_message": "Thank you! Our travel expert will contact you shortly with the best offers."
+              }
+            },
+            "not_found": {
+              "code": "404",
+              "badge": "Page Not Found",
+              "title": "Lost in the Dunes?",
+              "description": "The page you're searching for does not exist or has been relocated.",
+              "back_home": {
+                "text": "Back to Home",
+                "href": "/"
+              },
+              "quick_links": [
+                {
+                  "name": "Home",
+                  "href": "/"
+                },
+                {
+                  "name": "About Us",
+                  "href": "/about"
+                },
+                {
+                  "name": "Tour Packages",
+                  "href": "/packages"
+                },
+                {
+                  "name": "Services",
+                  "href": "/services"
+                },
+                {
+                  "name": "Contact Us",
+                  "href": "/contact"
+                }
+              ]
+            },
+            "enquiry_now": {
+              "title": "Enquiry Now | Dubai Desert Safari Tours",
+              "pageName": "Enquiry Now",
+              "metadata": {
+                "title": "Enquiry Now | Dubai Desert Safari & Tours",
+                "description": "Fill out the form below and our team will get back to you with the best Dubai Desert Safari package details."
+              },
+              "watermark": "Enquiry",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "EnquirySection",
+                  "component": "Enquiry"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "title_line1": "Explore",
+              "title_line2": "Safari Dreams",
+              "image": "/hero/hero.webp",
+              "image_alt": "White Toyota Land Cruiser drifting on Dubai golden desert sand dunes at sunset"
+            },
+            "about": {
+              "script_eyebrow": "About Us",
+              "title_regular": "We Create",
+              "title_highlight": "Unforgettable Journeys",
+              "description_paragraphs": [
+                "At TravelGo, we believe that travel is more than just visiting new places — it's about creating memories, exploring different cultures, and experiencing the beauty of our amazing world. We are dedicated to providing thoughtfully designed tour packages that make your journeys comfortable, exciting, and truly unforgettable."
+              ],
+              "button_text": "Discover More",
+              "button_link": "/about",
+              "image_main": "/about/about-1.webp",
+              "image_main_alt": "Group of friends sitting happily on Dubai desert sand dunes at golden hour sunset",
+              "image_secondary": "/about/about-2.webp",
+              "image_secondary_alt": "Smiling woman in white dress and keffiyeh next to adorned camel in desert"
+            },
+            "packages": {
+              "script_eyebrow": "Our Tour Packages",
+              "title_regular_prefix": "Dubai",
+              "title_highlight": "Desert",
+              "title_regular_suffix": "Safari Packages",
+              "description": "Experience the thrill of the Arabian desert with our exciting Dubai Desert Safari packages. From dune bashing and camel rides to traditional entertainment and BBQ dinner, we offer unforgettable experiences for every traveler. Choose from our wide range of safari packages and create memories that last a lifetime.",
+              "button_text": "View All Packages",
+              "button_link": "/packages",
+              "items": [
+                {
+                  "id": "morning-desert-safari",
+                  "title": "Morning Desert Safari",
+                  "image": "/packages/package-1.webp",
+                  "image_alt": "White Land Cruiser drifting on desert sand at morning sunrise",
+                  "price": "149 AED",
+                  "price_unit": "/ Per Person",
+                  "button_text": "Booking Now",
+                  "button_link": "/packages/morning-desert-safari",
+                  "category": "Desert Safari",
+                  "rating": 5
+                },
+                {
+                  "id": "desert-safari-pvt-land-cruiser",
+                  "title": "Desert Safari With PVT Land Cruiser",
+                  "image": "/packages/package-1.webp",
+                  "image_alt": "Private Land Cruiser drifting on desert sand",
+                  "price": "599 AED",
+                  "price_unit": "/ Upto 6 Pax",
+                  "button_text": "Booking Now",
+                  "button_link": "/packages/desert-safari-pvt-land-cruiser",
+                  "category": "Desert Safari",
+                  "rating": 5
+                },
+                {
+                  "id": "sky-44-ft-yacht-rental",
+                  "title": "Sky 44 ft Yacht Rental",
+                  "image": "/packages/package-2.webp",
+                  "image_alt": "Luxury yacht cruising in Dubai Marina near Burj Al Arab",
+                  "price": "499 AED",
+                  "price_unit": "",
+                  "button_text": "Booking Now",
+                  "button_link": "/packages/sky-44-ft-yacht-rental",
+                  "category": "Yacht Rental",
+                  "rating": 5
+                },
+                {
+                  "id": "desert-safari-bus-pickup-drop",
+                  "title": "Desert Safari By Bus Pickup & Drop",
+                  "image": "/packages/package-3.webp",
+                  "image_alt": "Tour bus and 4x4 SUV in Dubai desert",
+                  "price": "129 AED",
+                  "price_unit": "/ Per Person",
+                  "button_text": "Booking Now",
+                  "button_link": "/packages/desert-safari-bus-pickup-drop",
+                  "category": "Desert Safari",
+                  "rating": 5
+                },
+                {
+                  "id": "camel-ride-in-dubai",
+                  "title": "Camel Ride in Dubai",
+                  "image": "/packages/package-4.webp",
+                  "image_alt": "Camel caravan trekking across golden desert dunes",
+                  "price": "89 AED",
+                  "price_unit": "/ Per Person",
+                  "button_text": "Booking Now",
+                  "button_link": "/packages/camel-ride-in-dubai",
+                  "category": "Adventure",
+                  "rating": 5
+                },
+                {
+                  "id": "dubai-desert-safari",
+                  "title": "Dubai Desert Safari",
+                  "image": "/packages/package-5.webp",
+                  "image_alt": "Thrilling 4x4 dune bashing in sand dunes",
+                  "price": "99 AED",
+                  "price_unit": "/ Per Person",
+                  "button_text": "Booking Now",
+                  "button_link": "/packages/dubai-desert-safari",
+                  "category": "Desert Safari",
+                  "rating": 5
+                },
+                {
+                  "id": "vip-desert-safari-dubai",
+                  "title": "VIP Desert Safari Dubai",
+                  "image": "/packages/package-6.webp",
+                  "image_alt": "VIP luxury desert camp illuminated with Arabian lanterns",
+                  "price": "149 AED",
+                  "price_unit": "/ Per Head",
+                  "button_text": "Booking Now",
+                  "button_link": "/packages/vip-desert-safari-dubai",
+                  "category": "VIP Tours",
+                  "rating": 5
+                },
+                {
+                  "id": "overnight-desert-safari-dubai",
+                  "title": "Overnight Desert Safari Dubai",
+                  "image": "/packages/package-7.webp",
+                  "image_alt": "Night desert camp with campfire under starry sky",
+                  "price": "299 AED",
+                  "price_unit": "/ Per Person",
+                  "button_text": "Booking Now",
+                  "button_link": "/packages/overnight-desert-safari-dubai",
+                  "category": "Overnight Safari",
+                  "rating": 5
+                },
+                {
+                  "id": "vip-desert-safari-pvt-land-cruiser",
+                  "title": "Vip Desert Safari with Pvt Land Cruiser",
+                  "image": "/packages/package-8.webp",
+                  "image_alt": "White Land Cruiser parked on dune ridge at sunset",
+                  "price": "749 AED",
+                  "price_unit": "/ Per Vehicle",
+                  "button_text": "Booking Now",
+                  "button_link": "/packages/vip-desert-safari-pvt-land-cruiser",
+                  "category": "VIP Tours",
+                  "rating": 5
+                }
+              ]
+            },
+            "testimonials": {
+              "script_eyebrow": "Client Feedback",
+              "title_regular": "What Our",
+              "title_highlight": "Travelers Say",
+              "subtitle": "Real experiences from our happy travelers who explored the world with us and created unforgettable memories.",
+              "autoplay_interval": 5000,
+              "prev_button_label": "Previous testimonial",
+              "next_button_label": "Next testimonial",
+              "reviews": [
+                {
+                  "id": "review-1",
+                  "name": "OLIVIA MITCHELL",
+                  "role": "Traveler",
+                  "avatar": "/testimonials/avatar-1.webp",
+                  "rating": 5,
+                  "quote": "Our trip was absolutely amazing! From booking to the entire journey, everything was perfectly managed. The team was very supportive and helped us at every step. We had a wonderful experience and created memories that will last a lifetime. Highly recommend TravelGo for anyone who loves to explore new destinations!"
+                },
+                {
+                  "id": "review-2",
+                  "name": "MARCUS STERLING",
+                  "role": "Adventure Seeker",
+                  "avatar": "/testimonials/avatar-2.webp",
+                  "rating": 5,
+                  "quote": "The private Land Cruiser dune bashing exceeded all our expectations! The driver was remarkably skilled, the sunset photos were breathtaking, and the BBQ dinner camp was authentic and hospitable. Truly the highlight of our UAE trip."
+                },
+                {
+                  "id": "review-3",
+                  "name": "EMILY CHEN",
+                  "role": "Solo Traveler",
+                  "avatar": "/testimonials/avatar-3.webp",
+                  "rating": 5,
+                  "quote": "Booking with TravelGo was so smooth and hassle-free. From the timely pickup to the gentle camel ride at dusk, every single detail was carefully taken care of. I felt completely safe and had an unforgettable time."
+                },
+                {
+                  "id": "review-4",
+                  "name": "DAVID REYNOLDS",
+                  "role": "Family Vacationer",
+                  "avatar": "/testimonials/avatar-4.webp",
+                  "rating": 5,
+                  "quote": "We traveled with our children and elderly parents. TravelGo arranged a comfortable private safari package tailored specifically for our family. Kids loved sandboarding and we all cherished the peaceful desert evening."
+                },
+                {
+                  "id": "review-5",
+                  "name": "SOPHIA MARTINEZ",
+                  "role": "Travel Enthusiast",
+                  "avatar": "/testimonials/avatar-5.webp",
+                  "rating": 5,
+                  "quote": "The yacht rental and overnight desert safari were world-class! Professional crew, stunning vistas of Dubai Marina, and sleeping under the desert stars is something I will recommend to all my friends."
+                }
+              ]
+            },
+            "breadcrumb": {
+              "background_image": "/hero/hero.webp",
+              "background_alt": "TravelGo Dubai Safari",
+              "split_image": "/about/about-hero.webp",
+              "items": [
+                {
+                  "name": "Home",
+                  "href": "/"
+                }
+              ]
+            },
+            "banner": {
+              "image": "/img/aboutd.webp",
+              "image_alt": "Desert camp celebration with Tanoura dervish dancer and guests on Arabian carpets at sunset in Dubai"
+            },
+            "why_choose_us": {
+              "script_eyebrow": "Why Choose Us",
+              "title_line1": "Experience Your Dream",
+              "title_line2_prefix": "Destinations ",
+              "title_line2_highlight": "Made Easy",
+              "description": "Discover your dream destinations effortlessly. Simple, seamless, and stress-free travel planning for unforgettable memories.",
+              "image_top": "/about/about-buggy.webp",
+              "image_top_alt": "Thrilling 4x4 dune buggy speeding on Dubai golden sand dunes",
+              "image_bottom_left": "/about/about-camp.webp",
+              "image_bottom_left_alt": "Traditional Arabian desert camp lounge with lanterns and floor cushions at dusk",
+              "image_bottom_right": "/about/about-camels.webp",
+              "image_bottom_right_alt": "Camel caravan riding along sand dunes ridge during orange sunset",
+              "items": [
+                {
+                  "id": "secure-payments",
+                  "icon": "shield",
+                  "title": "Secure & Protected Payments",
+                  "description": "Advanced security measures to keep your transactions safe."
+                },
+                {
+                  "id": "best-price",
+                  "icon": "award",
+                  "title": "Best Price Guarantee",
+                  "description": "Get the most competitive prices on all tour packages."
+                },
+                {
+                  "id": "trusted-partnerships",
+                  "icon": "users",
+                  "title": "Trusted Partnerships",
+                  "description": "Connected with reputed tour operators and service providers you can rely on."
+                },
+                {
+                  "id": "wide-destinations",
+                  "icon": "map-pin",
+                  "title": "Wide Range of Destinations",
+                  "description": "Explore handpicked destinations across UAE and beyond."
+                },
+                {
+                  "id": "customer-support",
+                  "icon": "headphones",
+                  "title": "24/7 Customer Support",
+                  "description": "Always here to assist you with any travel inquiries."
+                },
+                {
+                  "id": "customized-experiences",
+                  "icon": "palm-tree",
+                  "title": "Customized Travel Experiences",
+                  "description": "Tailor-made packages to match your travel style and preferences."
+                }
+              ]
+            },
+            "gallery": {
+              "script_eyebrow": "Gallery",
+              "title_regular": "Moments from Our",
+              "title_highlight": "Desert Adventures",
+              "description": "Explore stunning moments from our Dubai Desert Safari tours — from thrilling dune bashing\nand camel rides to cultural shows and unforgettable desert sunsets.",
+              "items": [
+                {
+                  "id": "g-1",
+                  "title": "Thrilling Dune Bashing at Sunset",
+                  "image": "/gallery/gallery-1.webp",
+                  "category": "Safari"
+                },
+                {
+                  "id": "g-2",
+                  "title": "Camel Caravan at Golden Hour",
+                  "image": "/gallery/gallery-2.webp",
+                  "category": "Adventure"
+                },
+                {
+                  "id": "g-3",
+                  "title": "Sandboarding Down High Dunes",
+                  "image": "/gallery/gallery-3.webp",
+                  "category": "Adventure"
+                },
+                {
+                  "id": "g-4",
+                  "title": "Traditional Arabian Falconry",
+                  "image": "/gallery/gallery-4.webp",
+                  "category": "Heritage"
+                },
+                {
+                  "id": "g-5",
+                  "title": "Off-Road Dune Buggy Thrill",
+                  "image": "/gallery/gallery-5.webp",
+                  "category": "Adventure"
+                },
+                {
+                  "id": "g-6",
+                  "title": "Golden Sand Ripple Dunes",
+                  "image": "/gallery/gallery-6.webp",
+                  "category": "Landscape"
+                },
+                {
+                  "id": "g-7",
+                  "title": "Illuminated Desert Camp Majlis",
+                  "image": "/gallery/gallery-7.webp",
+                  "category": "Camp"
+                },
+                {
+                  "id": "g-8",
+                  "title": "Traditional Arabian Dance Show",
+                  "image": "/gallery/gallery-8.webp",
+                  "category": "Entertainment"
+                },
+                {
+                  "id": "g-9",
+                  "title": "Spectacular Desert Fire Show",
+                  "image": "/gallery/gallery-9.webp",
+                  "category": "Entertainment"
+                },
+                {
+                  "id": "g-10",
+                  "title": "Friendly Adorned Desert Camel",
+                  "image": "/gallery/gallery-10.webp",
+                  "category": "Safari"
+                },
+                {
+                  "id": "g-11",
+                  "title": "Authentic Dallah Coffee & Dates",
+                  "image": "/gallery/gallery-11.webp",
+                  "category": "Heritage"
+                },
+                {
+                  "id": "g-12",
+                  "title": "4x4 Safari Convoy on Dunes",
+                  "image": "/gallery/gallery-12.webp",
+                  "category": "Safari"
+                },
+                {
+                  "id": "g-13",
+                  "title": "Romantic Desert Sunset View",
+                  "image": "/gallery/gallery-13.webp",
+                  "category": "Landscape"
+                },
+                {
+                  "id": "g-14",
+                  "title": "Quad Biking on Red Sands",
+                  "image": "/gallery/gallery-14.webp",
+                  "category": "Adventure"
+                },
+                {
+                  "id": "g-15",
+                  "title": "Bedouin Tents at Twilight",
+                  "image": "/gallery/gallery-15.webp",
+                  "category": "Camp"
+                },
+                {
+                  "id": "g-16",
+                  "title": "Lavish Arabian BBQ Buffet Feast",
+                  "image": "/gallery/gallery-16.webp",
+                  "category": "Dining"
+                },
+                {
+                  "id": "g-17",
+                  "title": "Warm Bonfire Under Starlit Sky",
+                  "image": "/gallery/gallery-17.webp",
+                  "category": "Camp"
+                },
+                {
+                  "id": "g-18",
+                  "title": "High-Power Dune Buggy Drift",
+                  "image": "/gallery/gallery-18.webp",
+                  "category": "Adventure"
+                },
+                {
+                  "id": "g-19",
+                  "title": "Golden Sunset Desert Horizons",
+                  "image": "/gallery/gallery-19.webp",
+                  "category": "Landscape"
+                },
+                {
+                  "id": "g-20",
+                  "title": "Dubai Skyline Seen from Desert",
+                  "image": "/gallery/gallery-20.webp",
+                  "category": "Landscape"
+                }
+              ]
+            },
+            "faq": {
+              "script_eyebrow": "FAQs",
+              "title_regular": "Frequently Asked",
+              "title_highlight": "Questions",
+              "description": "Find answers to the most common questions about our Dubai Desert Safari tours.\nIf you need more information, feel free to contact our team.",
+              "items": [
+                {
+                  "question": "What is included in the Dubai Desert Safari package?",
+                  "answer": "All our standard safari packages include hotel pickup and drop-off in a luxury 4x4 Land Cruiser, thrilling dune bashing across red desert dunes, camel riding, sandboarding, unlimited refreshments (mineral water, Arabian tea, coffee), traditional henna painting, Tanoura dance, fire shows, and a lavish 5-star international BBQ dinner buffet with vegetarian and non-vegetarian selections."
+                },
+                {
+                  "question": "What should I wear during the desert safari?",
+                  "answer": "We recommend comfortable, loose-fitting cotton clothing and sandals, flip-flops, or sneakers that you can easily dust off. Sunglasses, a sun hat, and sunscreen are essential for daytime. During the winter months (November to March), desert evenings can get cool, so carrying a light jacket or shawl is advisable."
+                },
+                {
+                  "question": "Is dune bashing safe for children, pregnant women, and seniors?",
+                  "answer": "Safety is our number one priority. All vehicles are modern 4x4 SUVs fitted with protective roll cages and seat belts, inspected daily and driven by licensed desert safari experts. Dune bashing is not recommended for pregnant women or guests with neck or back conditions. For families with infants or seniors, we gladly offer direct gentle transit to the desert camp without aggressive dune bashing upon request."
+                },
+                {
+                  "question": "What are the pickup and drop-off timings?",
+                  "answer": "For Evening Desert Safari, pickup is between 2:30 PM and 3:30 PM (depending on your hotel location in Dubai or Sharjah), and drop-off is around 9:00 PM to 9:30 PM. For Morning Safari, pickup is around 7:30 AM to 8:30 AM with return by 12:30 PM. Our team shares the driver details and precise pickup window via WhatsApp on the morning of your tour."
+                },
+                {
+                  "question": "Are vegetarian, vegan, and Jain food options available?",
+                  "answer": "Yes, absolutely! Our evening BBQ buffet features a wide variety of vegetarian and vegan delicacies including fresh salads, hummus, falafel, biryani, pasta, grilled paneer, dal, and warm naan breads. If you require special Jain meals or gluten-free food, simply inform us in advance when booking."
+                },
+                {
+                  "question": "Can I drive a Quad Bike or Dune Buggy during the safari?",
+                  "answer": "Yes! We offer powerful 350cc - 400cc single and double Quad Bikes, as well as 1000cc Polaris Dune Buggies in an open desert track. Full safety gear (helmets, goggles) and an instructor briefing are provided before you ride. You can add this add-on directly when booking or request it at the desert meeting point."
+                },
+                {
+                  "question": "How do I make a reservation and what payment methods are accepted?",
+                  "answer": "Booking is quick and hassle-free. You can reserve online through our website, WhatsApp (+100000000000), or by clicking 'Enquiry Now'. We accept all major Credit/Debit Cards, secure online payment links, Apple Pay, and cash payment directly to the driver upon pickup."
+                },
+                {
+                  "question": "What is your cancellation and refund policy?",
+                  "answer": "We offer free cancellation and a 100% full refund up to 24 hours before your scheduled tour departure time. If you need to reschedule your date due to flight changes or personal plans, we accommodate date adjustments with zero penalty fees with 12 hours notice."
+                },
+                {
+                  "question": "Can we book a Private VIP Safari vehicle or VIP Camp tent?",
+                  "answer": "Yes! We offer exclusive Private 4x4 Land Cruiser bookings for your family or group (up to 6 passengers). You can also upgrade to our VIP Air-Conditioned Lounges and VIP Table Service at the camp, where dinner and drinks are served directly to your private table with priority viewing of the stage performances."
+                },
+                {
+                  "question": "Is photography allowed, and do you take sunset photo stops?",
+                  "answer": "Photography is encouraged and celebrated! Our safari captains stop at the highest dunes at golden hour sunset so you can capture breathtaking photos and videos against the Arabian desert backdrop. We also have traditional Arabic costume photo booths and falcon photography available at the camp."
+                },
+                {
+                  "question": "What happens if there is bad weather or a sandstorm?",
+                  "answer": "Extreme desert weather is rare, but your safety is paramount. If local authorities advise against desert activities due to heavy rain or sandstorms, we will contact you immediately to reschedule for the next available day or provide a complete 100% refund."
+                }
+              ]
+            },
+            "contact": {
+              "script_eyebrow": "Contact",
+              "title_regular": "Get In",
+              "title_highlight": "Touch",
+              "description": "Have a question or want to book your Dubai Desert Safari? Our team is here to help you with all the details. Feel free to reach out to us anytime.",
+              "address_line1": "123 Education Lane",
+              "address_line2": "New York, NY 10001",
+              "address": "123 Education Lane, New York, NY 10001",
+              "map_title": "123 Education Lane",
+              "map_subtitle": "New York, NY 10001",
+              "map_link": "https://maps.google.com/?q=123+Education+Lane,+New+York,+NY+10001",
+              "map_embed_url": "https://maps.google.com/maps?q=123+Education+Lane,+New+York,+NY+10001&t=&z=15&ie=UTF8&iwloc=&output=embed",
+              "phone": "+100000000000",
+              "email": "info@xyz.com",
+              "email_note": "We reply within 24 hours",
+              "timing": "Monday - Saturday: 9:00 AM - 7:00 PM | Sunday: Closed",
+              "form_title_prefix": "Send Us a",
+              "form_title_highlight": "Message",
+              "form_description": "Fill out the form below and our team will get back to you as soon as possible.",
+              "bg_suv_image": "/contact/contact-suv.webp",
+              "banner_camels_image": "/contact/contact-1.webp",
+              "features": [
+                {
+                  "icon": "clock",
+                  "title": "Quick Response",
+                  "description": "We respond to all enquiries within 24 hours."
+                },
+                {
+                  "icon": "headphones",
+                  "title": "Dedicated Support",
+                  "description": "Our team is here to help you plan the perfect safari."
+                },
+                {
+                  "icon": "shield",
+                  "title": "Trusted & Reliable",
+                  "description": "Safe, secure and memorable experiences in Dubai."
+                }
+              ],
+              "people_options": [
+                {
+                  "value": "1",
+                  "label": "1 Person"
+                },
+                {
+                  "value": "2",
+                  "label": "2 People"
+                },
+                {
+                  "value": "3",
+                  "label": "3 People"
+                },
+                {
+                  "value": "4-6",
+                  "label": "4 - 6 People"
+                },
+                {
+                  "value": "7+",
+                  "label": "7+ Group / Corporate"
+                }
+              ],
+              "package_options": [
+                {
+                  "value": "morning-desert-safari",
+                  "label": "Morning Desert Safari"
+                },
+                {
+                  "value": "desert-safari-pvt-land-cruiser",
+                  "label": "Desert Safari With PVT Land Cruiser"
+                },
+                {
+                  "value": "sky-44-ft-yacht-rental",
+                  "label": "Sky 44 ft Yacht Rental"
+                },
+                {
+                  "value": "desert-safari-bus-pickup-drop",
+                  "label": "Desert Safari By Bus Pickup & Drop"
+                },
+                {
+                  "value": "camel-ride-in-dubai",
+                  "label": "Camel Ride in Dubai"
+                },
+                {
+                  "value": "dubai-desert-safari",
+                  "label": "Dubai Desert Safari"
+                },
+                {
+                  "value": "vip-desert-safari-dubai",
+                  "label": "VIP Desert Safari Dubai"
+                },
+                {
+                  "value": "overnight-desert-safari-dubai",
+                  "label": "Overnight Desert Safari Dubai"
+                },
+                {
+                  "value": "vip-desert-safari-pvt-land-cruiser",
+                  "label": "Vip Desert Safari with Pvt Land Cruiser"
+                }
+              ]
+            },
+            "services": {
+              "script_eyebrow": "What We Offer",
+              "title_regular": "Our Travel",
+              "title_highlight": "Services",
+              "description": "From desert safaris to city tours, we offer a wide range of travel experiences across UAE to make your trip truly unforgettable.",
+              "button_text": "Read More",
+              "items": [
+                {
+                  "id": "desert-safari",
+                  "title": "Desert Safari",
+                  "description": "Experience thrilling dune bashing, camel rides, BBQ dinner and more in the Arabian desert.",
+                  "image": "/services/service-desert-safari.webp",
+                  "image_alt": "Desert Safari dune bashing with Land Cruiser SUV at sunset",
+                  "icon": "car",
+                  "link": "/packages"
+                },
+                {
+                  "id": "city-tours",
+                  "title": "City Tours",
+                  "description": "Discover iconic landmarks and modern attractions of Dubai and UAE with our guided city tours.",
+                  "image": "/services/service-city-tours.webp",
+                  "image_alt": "Dubai skyline with Burj Khalifa and modern skyscrapers",
+                  "icon": "building",
+                  "link": "/packages"
+                },
+                {
+                  "id": "yacht-rental",
+                  "title": "Yacht Rental",
+                  "description": "Enjoy luxury yacht experiences with stunning views of the skyline, perfect for special occasions.",
+                  "image": "/services/service-yacht-rental.webp",
+                  "image_alt": "Luxury motor yacht cruising Dubai Marina waters",
+                  "icon": "ship",
+                  "link": "/packages"
+                },
+                {
+                  "id": "theme-park-tickets",
+                  "title": "Theme Park Tickets",
+                  "description": "Get tickets for top theme parks with the best deals and offers for a fun-filled day.",
+                  "image": "/services/service-theme-park.webp",
+                  "image_alt": "Dubai Parks and Resorts colorful entrance gate",
+                  "icon": "ticket",
+                  "link": "/packages"
+                },
+                {
+                  "id": "hotel-booking",
+                  "title": "Hotel Booking",
+                  "description": "Find and book the best hotels for a comfortable and luxurious stay in UAE.",
+                  "image": "/services/service-hotel-booking.webp",
+                  "image_alt": "Burj Al Arab luxury 7-star hotel on Dubai coast at sunset",
+                  "icon": "hotel",
+                  "link": "/packages"
+                },
+                {
+                  "id": "airport-transfer",
+                  "title": "Airport Transfer",
+                  "description": "Reliable and comfortable airport pickup and drop-off services across UAE.",
+                  "image": "/services/service-airport-transfer.webp",
+                  "image_alt": "Chauffeur opening door of black luxury VIP transport van at airport",
+                  "icon": "van",
+                  "link": "/packages"
+                },
+                {
+                  "id": "camel-ride",
+                  "title": "Camel Ride",
+                  "description": "Enjoy a traditional camel ride and experience the beauty of the desert culture.",
+                  "image": "/services/service-camel-ride.webp",
+                  "image_alt": "Traditional camel caravan ride across golden desert sand dunes",
+                  "icon": "camel",
+                  "link": "/packages"
+                },
+                {
+                  "id": "customized-tours",
+                  "title": "Customized Tours",
+                  "description": "Tailor-made travel packages as per your interests, budget and preferences.",
+                  "image": "/services/service-customized-tours.webp",
+                  "image_alt": "Traveler with backpack overlooking Dubai coast and Burj Al Arab",
+                  "icon": "map",
+                  "link": "/packages"
+                },
+                {
+                  "id": "cultural-experiences",
+                  "title": "Cultural Experiences",
+                  "description": "Explore the rich heritage, traditions and cultural attractions of the UAE.",
+                  "image": "/services/service-cultural-experiences.webp",
+                  "image_alt": "Sheikh Zayed Grand Mosque white marble domes and reflective pool in Abu Dhabi",
+                  "icon": "landmark",
+                  "link": "/packages"
+                }
+              ]
+            },
+            "package_details": {
+              "morning-desert-safari": {
+                "id": "morning-desert-safari",
+                "slug": "morning-desert-safari",
+                "title_prefix": "Morning",
+                "title_highlight": "Desert Safari",
+                "location": "Dubai, UAE",
+                "duration": "4 Hours",
+                "tour_type": "Desert Safari",
+                "group_type": "Private / Shared",
+                "price": "149 AED",
+                "price_unit": "/ Per Person",
+                "main_image": "/packages/package-1.webp",
+                "thumbnails": [
+                  "/packages/package-1.webp",
+                  "/gallery/gallery-2.webp",
+                  "/gallery/gallery-3.webp",
+                  "/gallery/gallery-4.webp"
+                ],
+                "about_title": "About This Package",
+                "about_description": "Start your day with an unforgettable Morning Desert Safari in Dubai, where golden dunes, thrilling adventures and breathtaking desert views come together for an incredible experience. Enjoy an action-packed tour with dune bashing, camel ride, sandboarding and more, perfect for adventure lovers and families.",
+                "specifications": [
+                  {
+                    "icon": "map-pin",
+                    "label": "Location",
+                    "value": "Dubai, UAE"
+                  },
+                  {
+                    "icon": "clock",
+                    "label": "Duration",
+                    "value": "4 Hours"
+                  },
+                  {
+                    "icon": "tag",
+                    "label": "Tour Type",
+                    "value": "Desert Safari"
+                  },
+                  {
+                    "icon": "users",
+                    "label": "Group Type",
+                    "value": "Private / Shared"
+                  }
+                ],
+                "highlights_title": "Tour Highlights",
+                "highlights": [
+                  "Exciting dune bashing experience",
+                  "Breathtaking views of the Arabian desert",
+                  "Camel ride across the golden dunes",
+                  "Refreshments (water & soft drinks)",
+                  "Sandboarding adventure",
+                  "Hotel pick-up and drop-off",
+                  "Photo stop at scenic desert locations",
+                  "Perfect for families, couples and groups"
+                ],
+                "itinerary_title": "Tour Itinerary",
+                "itinerary": [
+                  {
+                    "time": "08:00 AM",
+                    "title": "Hotel pick-up from Dubai"
+                  },
+                  {
+                    "time": "08:30 AM",
+                    "title": "Drive to the desert"
+                  },
+                  {
+                    "time": "09:00 AM",
+                    "title": "Dune bashing in 4x4 vehicle"
+                  },
+                  {
+                    "time": "09:45 AM",
+                    "title": "Photo stop at scenic dunes"
+                  },
+                  {
+                    "time": "10:15 AM",
+                    "title": "Camel ride experience"
+                  },
+                  {
+                    "time": "10:45 AM",
+                    "title": "Sandboarding activity"
+                  },
+                  {
+                    "time": "11:15 AM",
+                    "title": "Refreshments (water & soft drinks)"
+                  },
+                  {
+                    "time": "11:45 AM",
+                    "title": "Drop-off at your hotel"
+                  }
+                ],
+                "gallery_title": "Tour Gallery",
+                "gallery_images": [
+                  "/packages/package-1.webp",
+                  "/gallery/gallery-2.webp",
+                  "/gallery/gallery-3.webp",
+                  "/gallery/gallery-4.webp",
+                  "/gallery/gallery-7.webp",
+                  "/gallery/gallery-1.webp",
+                  "/gallery/gallery-6.webp"
+                ],
+                "faq_title_regular": "Frequently Asked",
+                "faq_title_highlight": "Questions",
+                "faqs": [
+                  {
+                    "question": "What is included in the Morning Desert Safari package?",
+                    "answer": "Our Morning Desert Safari includes pickup and drop-off in a 4x4 vehicle, 45 minutes of exhilarating dune bashing, camel riding, sandboarding, photo stops at high dunes, and unlimited chilled bottled water and soft drinks."
+                  },
+                  {
+                    "question": "What time does the tour start?",
+                    "answer": "Pickup begins between 8:00 AM and 8:30 AM depending on your hotel or residence location in Dubai. The entire tour lasts approximately 4 hours, returning by 12:00 PM."
+                  },
+                  {
+                    "question": "Is hotel pick-up and drop-off included?",
+                    "answer": "Yes! Complimentary hotel pickup and drop-off is included from any hotel, residence, or airport terminal in Dubai and Sharjah."
+                  },
+                  {
+                    "question": "Can children participate in the desert safari?",
+                    "answer": "Yes, children of all ages are welcome! Child safety seats are available upon advance request for maximum safety and comfort."
+                  },
+                  {
+                    "question": "What should I wear for the tour?",
+                    "answer": "We recommend light, casual cotton clothing and comfortable sandals or sneakers. Don't forget sunglasses and sunscreen."
+                  },
+                  {
+                    "question": "Is the tour suitable for pregnant women?",
+                    "answer": "Due to bumpy terrain during dune bashing, it is not recommended for pregnant women. However, we can arrange direct transfer to a scenic photo spot without off-road dune bashing upon request."
+                  }
+                ],
+                "sidebar_banner": "/packages/package-details-banner.webp"
+              },
+              "desert-safari-pvt-land-cruiser": {
+                "id": "desert-safari-pvt-land-cruiser",
+                "slug": "desert-safari-pvt-land-cruiser",
+                "title_prefix": "Private Land Cruiser",
+                "title_highlight": "Desert Safari",
+                "location": "Dubai, UAE",
+                "duration": "6 Hours",
+                "tour_type": "Desert Safari",
+                "group_type": "Private (Up to 6 Pax)",
+                "price": "599 AED",
+                "price_unit": "/ Upto 6 Pax",
+                "main_image": "/packages/package-1.webp",
+                "thumbnails": [
+                  "/packages/package-1.webp",
+                  "/gallery/gallery-12.webp",
+                  "/gallery/gallery-7.webp",
+                  "/gallery/gallery-16.webp"
+                ],
+                "about_title": "About This Package",
+                "about_description": "Experience the ultimate VIP desert safari with your own dedicated private luxury Toyota Land Cruiser. Enjoy customized dune bashing intensity, private stops for golden hour sunset photography, and VIP seating at the Bedouin desert camp.",
+                "specifications": [
+                  {
+                    "icon": "map-pin",
+                    "label": "Location",
+                    "value": "Dubai, UAE"
+                  },
+                  {
+                    "icon": "clock",
+                    "label": "Duration",
+                    "value": "6 Hours"
+                  },
+                  {
+                    "icon": "tag",
+                    "label": "Tour Type",
+                    "value": "Private Safari"
+                  },
+                  {
+                    "icon": "users",
+                    "label": "Group Type",
+                    "value": "Private (6 Guests)"
+                  }
+                ],
+                "highlights_title": "Tour Highlights",
+                "highlights": [
+                  "Exclusive private 4x4 Land Cruiser SUV",
+                  "Tailored thrilling dune bashing session",
+                  "Sunset photo stop on high red dunes",
+                  "Camel riding and sandboarding",
+                  "Henna hand painting & Arabian costumes",
+                  "Live Tanoura, Fire & Belly Dance shows",
+                  "5-Star BBQ dinner buffet with live cooking",
+                  "Direct private pickup and return"
+                ],
+                "itinerary_title": "Tour Itinerary",
+                "itinerary": [
+                  {
+                    "time": "02:30 PM",
+                    "title": "Private hotel pickup in luxury Land Cruiser"
+                  },
+                  {
+                    "time": "03:30 PM",
+                    "title": "Arrive at high desert dunes"
+                  },
+                  {
+                    "time": "04:00 PM",
+                    "title": "Thrilling 4x4 dune bashing & sandboarding"
+                  },
+                  {
+                    "time": "05:30 PM",
+                    "title": "Golden sunset photo stop"
+                  },
+                  {
+                    "time": "06:15 PM",
+                    "title": "Welcome at VIP Bedouin Desert Camp"
+                  },
+                  {
+                    "time": "07:00 PM",
+                    "title": "Live entertainment shows & BBQ dinner"
+                  },
+                  {
+                    "time": "08:45 PM",
+                    "title": "Private drop-off at your hotel"
+                  }
+                ],
+                "gallery_title": "Tour Gallery",
+                "gallery_images": [
+                  "/packages/package-1.webp",
+                  "/gallery/gallery-12.webp",
+                  "/gallery/gallery-7.webp",
+                  "/gallery/gallery-16.webp",
+                  "/gallery/gallery-9.webp",
+                  "/gallery/gallery-17.webp",
+                  "/gallery/gallery-13.webp"
+                ],
+                "faq_title_regular": "Frequently Asked",
+                "faq_title_highlight": "Questions",
+                "faqs": [
+                  {
+                    "question": "How many people can fit in the private Land Cruiser?",
+                    "answer": "Our private Land Cruiser accommodates up to 6 passengers comfortably with seatbelts and air-conditioning."
+                  },
+                  {
+                    "question": "Is BBQ dinner included in the private package?",
+                    "answer": "Yes, full access to the international BBQ buffet with vegetarian and non-vegetarian selections is included."
+                  }
+                ],
+                "sidebar_banner": "/packages/package-details-banner.webp"
+              },
+              "sky-44-ft-yacht-rental": {
+                "id": "sky-44-ft-yacht-rental",
+                "slug": "sky-44-ft-yacht-rental",
+                "title_prefix": "Sky 44 ft",
+                "title_highlight": "Luxury Yacht Rental",
+                "location": "Dubai Marina, UAE",
+                "duration": "3 Hours",
+                "tour_type": "Yacht Cruise",
+                "group_type": "Private Group (Up to 12)",
+                "price": "499 AED",
+                "price_unit": "/ Hour",
+                "main_image": "/packages/package-2.webp",
+                "thumbnails": [
+                  "/packages/package-2.webp",
+                  "/services/service-yacht-rental.webp",
+                  "/gallery/gallery-20.webp",
+                  "/packages/package-8.webp"
+                ],
+                "about_title": "About This Package",
+                "about_description": "Sail the turquoise waters of the Arabian Gulf aboard our luxury 44 ft motor yacht. Glide past Ain Dubai, JBR Beach, Atlantis The Palm, and Burj Al Arab with a professional captain and dedicated crew.",
+                "specifications": [
+                  {
+                    "icon": "map-pin",
+                    "label": "Location",
+                    "value": "Dubai Marina"
+                  },
+                  {
+                    "icon": "clock",
+                    "label": "Duration",
+                    "value": "3 Hours"
+                  },
+                  {
+                    "icon": "tag",
+                    "label": "Tour Type",
+                    "value": "Yacht Rental"
+                  },
+                  {
+                    "icon": "users",
+                    "label": "Group Type",
+                    "value": "Private (Up to 12)"
+                  }
+                ],
+                "highlights_title": "Tour Highlights",
+                "highlights": [
+                  "Cruising past Dubai Marina & JBR skyline",
+                  "Stunning views of Ain Dubai & Atlantis The Palm",
+                  "Photo opportunities at Burj Al Arab",
+                  "Surround sound Bluetooth music system",
+                  "Sunbathing deck and AC salon",
+                  "Complimentary water, ice, and soft drinks",
+                  "Professional licensed captain & crew",
+                  "Swimming stop at Dubai Lagoon"
+                ],
+                "itinerary_title": "Tour Itinerary",
+                "itinerary": [
+                  {
+                    "time": "03:00 PM",
+                    "title": "Boarding at Dubai Marina Yacht Club"
+                  },
+                  {
+                    "time": "03:30 PM",
+                    "title": "Cruise along Marina canal into Arabian Gulf"
+                  },
+                  {
+                    "time": "04:15 PM",
+                    "title": "Pass Ain Dubai and JBR beachfront"
+                  },
+                  {
+                    "time": "05:00 PM",
+                    "title": "Anchor near Atlantis The Palm for sunset"
+                  },
+                  {
+                    "time": "06:00 PM",
+                    "title": "Return cruise into Dubai Marina lights"
+                  }
+                ],
+                "gallery_title": "Tour Gallery",
+                "gallery_images": [
+                  "/packages/package-2.webp",
+                  "/services/service-yacht-rental.webp",
+                  "/gallery/gallery-20.webp",
+                  "/packages/package-8.webp",
+                  "/gallery/gallery-13.webp",
+                  "/gallery/gallery-2.webp",
+                  "/gallery/gallery-6.webp"
+                ],
+                "faq_title_regular": "Frequently Asked",
+                "faq_title_highlight": "Questions",
+                "faqs": [
+                  {
+                    "question": "Can we bring our own food and beverages?",
+                    "answer": "Yes, you are welcome to bring your own snacks, catering, and drinks. We provide glassware, ice, and barbecue facilities upon request."
+                  }
+                ],
+                "sidebar_banner": "/packages/package-details-banner.webp"
+              },
+              "desert-safari-bus-pickup-drop": {
+                "id": "desert-safari-bus-pickup-drop",
+                "slug": "desert-safari-bus-pickup-drop",
+                "title_prefix": "Budget Friendly",
+                "title_highlight": "Desert Safari By Bus",
+                "location": "Dubai & Sharjah",
+                "duration": "6 Hours",
+                "tour_type": "Shared Safari",
+                "group_type": "Group / Bus Pickup",
+                "price": "129 AED",
+                "price_unit": "/ Per Person",
+                "main_image": "/packages/package-3.webp",
+                "thumbnails": [
+                  "/packages/package-3.webp",
+                  "/gallery/gallery-1.webp",
+                  "/gallery/gallery-7.webp",
+                  "/gallery/gallery-16.webp"
+                ],
+                "about_title": "About This Package",
+                "about_description": "An economical, value-packed desert safari experience with designated centralized pickup points in Dubai and Sharjah. Enjoy dune bashing, camel riding, BBQ dinner buffet, and live stage shows.",
+                "specifications": [
+                  {
+                    "icon": "map-pin",
+                    "label": "Location",
+                    "value": "Dubai Desert"
+                  },
+                  {
+                    "icon": "clock",
+                    "label": "Duration",
+                    "value": "6 Hours"
+                  },
+                  {
+                    "icon": "tag",
+                    "label": "Tour Type",
+                    "value": "Shared Safari"
+                  },
+                  {
+                    "icon": "users",
+                    "label": "Group Type",
+                    "value": "Group Bus"
+                  }
+                ],
+                "highlights_title": "Tour Highlights",
+                "highlights": [
+                  "AC bus transport from centralized points",
+                  "Exciting 4x4 dune bashing",
+                  "Sunset photography in the dunes",
+                  "Camel ride and sandboarding",
+                  "International BBQ dinner buffet",
+                  "Live Tanoura & Fire shows"
+                ],
+                "itinerary_title": "Tour Itinerary",
+                "itinerary": [
+                  {
+                    "time": "02:30 PM",
+                    "title": "Bus pickup from meeting points"
+                  },
+                  {
+                    "time": "03:45 PM",
+                    "title": "Switch to 4x4 for dune bashing"
+                  },
+                  {
+                    "time": "05:30 PM",
+                    "title": "Camp activities & camel ride"
+                  },
+                  {
+                    "time": "07:00 PM",
+                    "title": "Buffet dinner & live shows"
+                  },
+                  {
+                    "time": "09:00 PM",
+                    "title": "Bus return to pickup spots"
+                  }
+                ],
+                "gallery_title": "Tour Gallery",
+                "gallery_images": [
+                  "/packages/package-3.webp",
+                  "/gallery/gallery-1.webp",
+                  "/gallery/gallery-7.webp",
+                  "/gallery/gallery-16.webp",
+                  "/gallery/gallery-9.webp",
+                  "/gallery/gallery-2.webp",
+                  "/gallery/gallery-10.webp"
+                ],
+                "faq_title_regular": "Frequently Asked",
+                "faq_title_highlight": "Questions",
+                "faqs": [
+                  {
+                    "question": "Where are the centralized pickup locations?",
+                    "answer": "Pickup spots include Deira City Centre, Burjuman, Lulu Al Barsha, and Sahara Centre Sharjah."
+                  }
+                ],
+                "sidebar_banner": "/packages/package-details-banner.webp"
+              },
+              "camel-ride-in-dubai": {
+                "id": "camel-ride-in-dubai",
+                "slug": "camel-ride-in-dubai",
+                "title_prefix": "Traditional",
+                "title_highlight": "Camel Ride in Dubai",
+                "location": "Al Marmoom, Dubai",
+                "duration": "2 Hours",
+                "tour_type": "Camel Trek",
+                "group_type": "Shared / Private",
+                "price": "89 AED",
+                "price_unit": "/ Per Person",
+                "main_image": "/packages/package-4.webp",
+                "thumbnails": [
+                  "/packages/package-4.webp",
+                  "/gallery/gallery-10.webp",
+                  "/gallery/gallery-2.webp",
+                  "/gallery/gallery-11.webp"
+                ],
+                "about_title": "About This Package",
+                "about_description": "Connect with authentic Arabian heritage through a scenic camel trek across tranquil desert dunes. Experience the peaceful silence of the desert as nomadic Bedouins have traveled for centuries.",
+                "specifications": [
+                  {
+                    "icon": "map-pin",
+                    "label": "Location",
+                    "value": "Dubai Desert"
+                  },
+                  {
+                    "icon": "clock",
+                    "label": "Duration",
+                    "value": "2 Hours"
+                  },
+                  {
+                    "icon": "tag",
+                    "label": "Tour Type",
+                    "value": "Camel Trek"
+                  },
+                  {
+                    "icon": "users",
+                    "label": "Group Type",
+                    "value": "Small Groups"
+                  }
+                ],
+                "highlights_title": "Tour Highlights",
+                "highlights": [
+                  "Guided camel ride across golden dunes",
+                  "Traditional Arabic gahwa coffee & dates",
+                  "Sunset photo stop atop red dunes",
+                  "Learn about camel history & desert wildlife",
+                  "Falcon photography opportunity"
+                ],
+                "itinerary_title": "Tour Itinerary",
+                "itinerary": [
+                  {
+                    "time": "04:00 PM",
+                    "title": "Arrival at Camel Caravan Station"
+                  },
+                  {
+                    "time": "04:30 PM",
+                    "title": "Mount camels and begin 45-min desert trek"
+                  },
+                  {
+                    "time": "05:15 PM",
+                    "title": "Sunset dune stop for photography"
+                  },
+                  {
+                    "time": "05:45 PM",
+                    "title": "Traditional Arabic coffee & dates hospitality"
+                  }
+                ],
+                "gallery_title": "Tour Gallery",
+                "gallery_images": [
+                  "/packages/package-4.webp",
+                  "/gallery/gallery-10.webp",
+                  "/gallery/gallery-2.webp",
+                  "/gallery/gallery-11.webp",
+                  "/gallery/gallery-13.webp",
+                  "/gallery/gallery-6.webp",
+                  "/gallery/gallery-1.webp"
+                ],
+                "faq_title_regular": "Frequently Asked",
+                "faq_title_highlight": "Questions",
+                "faqs": [
+                  {
+                    "question": "Is camel riding safe for beginners?",
+                    "answer": "Yes, our camels are gentle, well-trained, and led by experienced Bedouin camel handlers."
+                  }
+                ],
+                "sidebar_banner": "/packages/package-details-banner.webp"
+              },
+              "dubai-desert-safari": {
+                "id": "dubai-desert-safari",
+                "slug": "dubai-desert-safari",
+                "title_prefix": "Evening",
+                "title_highlight": "Dubai Desert Safari",
+                "location": "Dubai, UAE",
+                "duration": "6 Hours",
+                "tour_type": "Desert Safari",
+                "group_type": "Shared / Private",
+                "price": "99 AED",
+                "price_unit": "/ Per Person",
+                "main_image": "/packages/package-5.webp",
+                "thumbnails": [
+                  "/packages/package-5.webp",
+                  "/gallery/gallery-1.webp",
+                  "/gallery/gallery-7.webp",
+                  "/gallery/gallery-9.webp"
+                ],
+                "about_title": "About This Package",
+                "about_description": "The classic Dubai evening safari with hotel pickup, 4x4 dune bashing, camel rides, sandboarding, sunset views, and a full evening of entertainment with BBQ dinner at our desert camp.",
+                "specifications": [
+                  {
+                    "icon": "map-pin",
+                    "label": "Location",
+                    "value": "Dubai Desert"
+                  },
+                  {
+                    "icon": "clock",
+                    "label": "Duration",
+                    "value": "6 Hours"
+                  },
+                  {
+                    "icon": "tag",
+                    "label": "Tour Type",
+                    "value": "Evening Safari"
+                  },
+                  {
+                    "icon": "users",
+                    "label": "Group Type",
+                    "value": "Shared / Private"
+                  }
+                ],
+                "highlights_title": "Tour Highlights",
+                "highlights": [
+                  "Hotel pickup and drop-off in 4x4",
+                  "Red dune bashing & sandboarding",
+                  "Sunset photo stop",
+                  "Henna tattoo & shisha lounge",
+                  "Lavish BBQ dinner buffet",
+                  "Belly dance, Tanoura & Fire shows"
+                ],
+                "itinerary_title": "Tour Itinerary",
+                "itinerary": [
+                  {
+                    "time": "03:00 PM",
+                    "title": "Hotel pickup from Dubai"
+                  },
+                  {
+                    "time": "04:15 PM",
+                    "title": "Dune bashing in 4x4 SUV"
+                  },
+                  {
+                    "time": "05:30 PM",
+                    "title": "Sunset dune photography"
+                  },
+                  {
+                    "time": "06:15 PM",
+                    "title": "Camp entrance & camel ride"
+                  },
+                  {
+                    "time": "07:00 PM",
+                    "title": "Dinner & 3 live cultural shows"
+                  },
+                  {
+                    "time": "09:00 PM",
+                    "title": "Hotel drop-off"
+                  }
+                ],
+                "gallery_title": "Tour Gallery",
+                "gallery_images": [
+                  "/packages/package-5.webp",
+                  "/gallery/gallery-1.webp",
+                  "/gallery/gallery-7.webp",
+                  "/gallery/gallery-9.webp",
+                  "/gallery/gallery-8.webp",
+                  "/gallery/gallery-16.webp",
+                  "/gallery/gallery-17.webp"
+                ],
+                "faq_title_regular": "Frequently Asked",
+                "faq_title_highlight": "Questions",
+                "faqs": [
+                  {
+                    "question": "What live shows are performed?",
+                    "answer": "Shows include the mesmerizing Tanoura spinning dance, fire eating/spinning show, and traditional belly dance."
+                  }
+                ],
+                "sidebar_banner": "/packages/package-details-banner.webp"
+              },
+              "vip-desert-safari-dubai": {
+                "id": "vip-desert-safari-dubai",
+                "slug": "vip-desert-safari-dubai",
+                "title_prefix": "VIP Luxury",
+                "title_highlight": "Desert Safari Dubai",
+                "location": "Dubai, UAE",
+                "duration": "7 Hours",
+                "tour_type": "VIP Desert Safari",
+                "group_type": "VIP Table Service",
+                "price": "149 AED",
+                "price_unit": "/ Per Head",
+                "main_image": "/packages/package-6.webp",
+                "thumbnails": [
+                  "/packages/package-6.webp",
+                  "/gallery/gallery-15.webp",
+                  "/gallery/gallery-16.webp",
+                  "/gallery/gallery-9.webp"
+                ],
+                "about_title": "About This Package",
+                "about_description": "Elevate your desert safari with VIP treatment: skip the buffet lines with personalized waiter table service, premium stage-front seating, and priority dune bashing.",
+                "specifications": [
+                  {
+                    "icon": "map-pin",
+                    "label": "Location",
+                    "value": "Dubai Desert"
+                  },
+                  {
+                    "icon": "clock",
+                    "label": "Duration",
+                    "value": "7 Hours"
+                  },
+                  {
+                    "icon": "tag",
+                    "label": "Tour Type",
+                    "value": "VIP Safari"
+                  },
+                  {
+                    "icon": "users",
+                    "label": "Group Type",
+                    "value": "VIP Table"
+                  }
+                ],
+                "highlights_title": "Tour Highlights",
+                "highlights": [
+                  "Reserved front-row VIP table seating",
+                  "Table service dinner & drinks (no lines)",
+                  "Premium 4x4 dune bashing",
+                  "VIP camel ride & sandboarding",
+                  "Front-stage view of live shows",
+                  "Priority hotel pickup and drop-off"
+                ],
+                "itinerary_title": "Tour Itinerary",
+                "itinerary": [
+                  {
+                    "time": "02:30 PM",
+                    "title": "VIP hotel pickup"
+                  },
+                  {
+                    "time": "04:00 PM",
+                    "title": "Thrilling dune bashing"
+                  },
+                  {
+                    "time": "05:30 PM",
+                    "title": "Golden sunset stop"
+                  },
+                  {
+                    "time": "06:15 PM",
+                    "title": "Escorted to VIP stage-front table"
+                  },
+                  {
+                    "time": "07:15 PM",
+                    "title": "Waiter-served BBQ feast & shows"
+                  },
+                  {
+                    "time": "09:15 PM",
+                    "title": "Comfortable return drop-off"
+                  }
+                ],
+                "gallery_title": "Tour Gallery",
+                "gallery_images": [
+                  "/packages/package-6.webp",
+                  "/gallery/gallery-15.webp",
+                  "/gallery/gallery-16.webp",
+                  "/gallery/gallery-9.webp",
+                  "/gallery/gallery-7.webp",
+                  "/gallery/gallery-1.webp",
+                  "/gallery/gallery-17.webp"
+                ],
+                "faq_title_regular": "Frequently Asked",
+                "faq_title_highlight": "Questions",
+                "faqs": [
+                  {
+                    "question": "What is VIP table service?",
+                    "answer": "Instead of waiting in buffet lines, our waitstaff serves all appetizers, grilled BBQ dishes, and drinks directly to your reserved stage-side table."
+                  }
+                ],
+                "sidebar_banner": "/packages/package-details-banner.webp"
+              },
+              "overnight-desert-safari-dubai": {
+                "id": "overnight-desert-safari-dubai",
+                "slug": "overnight-desert-safari-dubai",
+                "title_prefix": "Overnight Camp",
+                "title_highlight": "Desert Safari Dubai",
+                "location": "Dubai, UAE",
+                "duration": "18 Hours",
+                "tour_type": "Overnight Safari",
+                "group_type": "Private Tent",
+                "price": "299 AED",
+                "price_unit": "/ Per Person",
+                "main_image": "/packages/package-7.webp",
+                "thumbnails": [
+                  "/packages/package-7.webp",
+                  "/gallery/gallery-17.webp",
+                  "/gallery/gallery-15.webp",
+                  "/gallery/gallery-19.webp"
+                ],
+                "about_title": "About This Package",
+                "about_description": "Sleep under the twinkling Arabian stars in a cozy Bedouin tent. Includes evening safari, BBQ dinner, campfire under the stars, overnight tent stay, and a sunrise camel trek with freshly cooked Arabian breakfast.",
+                "specifications": [
+                  {
+                    "icon": "map-pin",
+                    "label": "Location",
+                    "value": "Dubai Desert"
+                  },
+                  {
+                    "icon": "clock",
+                    "label": "Duration",
+                    "value": "18 Hours"
+                  },
+                  {
+                    "icon": "tag",
+                    "label": "Tour Type",
+                    "value": "Overnight Safari"
+                  },
+                  {
+                    "icon": "users",
+                    "label": "Group Type",
+                    "value": "Private Tent"
+                  }
+                ],
+                "highlights_title": "Tour Highlights",
+                "highlights": [
+                  "Complete evening safari & BBQ feast",
+                  "Stargazing around midnight campfire",
+                  "Private furnished Bedouin tent & mattresses",
+                  "Peaceful morning sunrise over dunes",
+                  "Morning camel trek",
+                  "Freshly prepared hot breakfast & coffee"
+                ],
+                "itinerary_title": "Tour Itinerary",
+                "itinerary": [
+                  {
+                    "time": "03:00 PM",
+                    "title": "Pickup and evening safari"
+                  },
+                  {
+                    "time": "07:00 PM",
+                    "title": "Dinner buffet and cultural shows"
+                  },
+                  {
+                    "time": "10:00 PM",
+                    "title": "Campfire gathering under the stars"
+                  },
+                  {
+                    "time": "11:00 PM",
+                    "title": "Retire to private tent"
+                  },
+                  {
+                    "time": "06:00 AM",
+                    "title": "Wake up to desert sunrise & camel ride"
+                  },
+                  {
+                    "time": "07:30 AM",
+                    "title": "Hot breakfast & coffee"
+                  },
+                  {
+                    "time": "08:30 AM",
+                    "title": "Return drop-off to hotel"
+                  }
+                ],
+                "gallery_title": "Tour Gallery",
+                "gallery_images": [
+                  "/packages/package-7.webp",
+                  "/gallery/gallery-17.webp",
+                  "/gallery/gallery-15.webp",
+                  "/gallery/gallery-19.webp",
+                  "/gallery/gallery-1.webp",
+                  "/gallery/gallery-2.webp",
+                  "/gallery/gallery-10.webp"
+                ],
+                "faq_title_regular": "Frequently Asked",
+                "faq_title_highlight": "Questions",
+                "faqs": [
+                  {
+                    "question": "Are sleeping bags and bedding provided?",
+                    "answer": "Yes, we provide clean mattresses, pillows, fresh linens, and warm blankets inside your private tent."
+                  }
+                ],
+                "sidebar_banner": "/packages/package-details-banner.webp"
+              },
+              "vip-desert-safari-pvt-land-cruiser": {
+                "id": "vip-desert-safari-pvt-land-cruiser",
+                "slug": "vip-desert-safari-pvt-land-cruiser",
+                "title_prefix": "VIP Private Cruiser",
+                "title_highlight": "Safari Experience",
+                "location": "Dubai, UAE",
+                "duration": "7 Hours",
+                "tour_type": "VIP Safari",
+                "group_type": "Private Vehicle",
+                "price": "749 AED",
+                "price_unit": "/ Per Vehicle",
+                "main_image": "/packages/package-8.webp",
+                "thumbnails": [
+                  "/packages/package-8.webp",
+                  "/gallery/gallery-1.webp",
+                  "/gallery/gallery-16.webp",
+                  "/gallery/gallery-15.webp"
+                ],
+                "about_title": "About This Package",
+                "about_description": "The pinnacle of desert luxury: a private brand-new Land Cruiser for your party, coupled with stage-side VIP table service, gourmet BBQ dining, and priority access to all desert activities.",
+                "specifications": [
+                  {
+                    "icon": "map-pin",
+                    "label": "Location",
+                    "value": "Dubai Desert"
+                  },
+                  {
+                    "icon": "clock",
+                    "label": "Duration",
+                    "value": "7 Hours"
+                  },
+                  {
+                    "icon": "tag",
+                    "label": "Tour Type",
+                    "value": "VIP Private"
+                  },
+                  {
+                    "icon": "users",
+                    "label": "Group Type",
+                    "value": "Private 6 Guests"
+                  }
+                ],
+                "highlights_title": "Tour Highlights",
+                "highlights": [
+                  "Private brand-new 4x4 Land Cruiser",
+                  "VIP reserved front-row table at camp",
+                  "Waiter-served 5-star BBQ dinner",
+                  "Extended private dune bashing session",
+                  "Private photo stop on virgin dunes",
+                  "Complimentary shisha on table"
+                ],
+                "itinerary_title": "Tour Itinerary",
+                "itinerary": [
+                  {
+                    "time": "02:30 PM",
+                    "title": "Private VIP pickup from your door"
+                  },
+                  {
+                    "time": "03:45 PM",
+                    "title": "Private dune bashing experience"
+                  },
+                  {
+                    "time": "05:30 PM",
+                    "title": "Sunset photography on crest of high dunes"
+                  },
+                  {
+                    "time": "06:15 PM",
+                    "title": "VIP camp reception & private seating"
+                  },
+                  {
+                    "time": "07:15 PM",
+                    "title": "Served dining & 3 live cultural shows"
+                  },
+                  {
+                    "time": "09:00 PM",
+                    "title": "Private transfer back to your hotel"
+                  }
+                ],
+                "gallery_title": "Tour Gallery",
+                "gallery_images": [
+                  "/packages/package-8.webp",
+                  "/gallery/gallery-1.webp",
+                  "/gallery/gallery-16.webp",
+                  "/gallery/gallery-15.webp",
+                  "/gallery/gallery-9.webp",
+                  "/gallery/gallery-12.webp",
+                  "/gallery/gallery-6.webp"
+                ],
+                "faq_title_regular": "Frequently Asked",
+                "faq_title_highlight": "Questions",
+                "faqs": [
+                  {
+                    "question": "Is shisha included with the VIP table?",
+                    "answer": "Yes, complimentary table shisha service is included with our VIP private package."
+                  }
+                ],
+                "sidebar_banner": "/packages/package-details-banner.webp"
+              }
+            },
+            "enquiry": {
+              "script_eyebrow": "Enquiry",
+              "title_regular": "Enquire",
+              "title_highlight": "Now",
+              "description": "Fill out the form below and our team will get back to you with the best Dubai Desert Safari package details.",
+              "name_label": "Full Name",
+              "name_placeholder": "Enter your full name",
+              "email_label": "Email Address",
+              "email_placeholder": "Enter your email address",
+              "phone_label": "Phone Number",
+              "phone_placeholder": "Enter phone number",
+              "date_label": "Travel Date",
+              "date_placeholder": "Select travel date",
+              "people_label": "Number of People",
+              "people_placeholder": "Select number of people",
+              "package_label": "Package / Tour",
+              "package_placeholder": "Select a package",
+              "time_label": "Preferred Time",
+              "time_placeholder": "Select preferred time",
+              "pickup_label": "Hotel Pick-up Required?",
+              "pickup_placeholder": "Select option",
+              "message_label": "Message / Special Requirements",
+              "message_placeholder": "Tell us your requirements...",
+              "button_text": "Submit Enquiry",
+              "success_title": "Thank You! Enquiry Submitted Successfully",
+              "success_message": "Your safari booking enquiry has been received. Our team will contact you shortly with full details.",
+              "reset_button_text": "Send Another Enquiry",
+              "people_options": [
+                {
+                  "value": "1",
+                  "label": "1 Person"
+                },
+                {
+                  "value": "2",
+                  "label": "2 People"
+                },
+                {
+                  "value": "3",
+                  "label": "3 People"
+                },
+                {
+                  "value": "4-6",
+                  "label": "4 - 6 People"
+                },
+                {
+                  "value": "7+",
+                  "label": "7+ Group / Corporate"
+                }
+              ],
+              "time_options": [
+                {
+                  "value": "morning",
+                  "label": "Morning (8:00 AM - 12:00 PM)"
+                },
+                {
+                  "value": "evening",
+                  "label": "Evening (3:30 PM - 9:30 PM)"
+                },
+                {
+                  "value": "overnight",
+                  "label": "Overnight (4:00 PM - Next 9:00 AM)"
+                },
+                {
+                  "value": "flexible",
+                  "label": "Flexible / Any Time"
+                }
+              ],
+              "pickup_options": [
+                {
+                  "value": "yes",
+                  "label": "Yes, hotel pick-up required"
+                },
+                {
+                  "value": "no",
+                  "label": "No, self-drive / direct arrival"
+                },
+                {
+                  "value": "later",
+                  "label": "Not sure / Will decide later"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
