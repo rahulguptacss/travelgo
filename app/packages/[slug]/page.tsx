@@ -73,9 +73,8 @@ export default async function DynamicPackageDetailPage({ params }: PageProps) {
     Breadcrumb: (
       <Breadcrumb
         data={sections.breadcrumb}
-        currentPage="Package Details"
-        variant="split"
-        splitImage={sections.breadcrumb.split_image}
+        currentPage={pageData.pageName || 'Package Details'}
+        watermark={pageData.watermark || 'Package'}
       />
     ),
     PackageDetails: (
